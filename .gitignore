@@ -1,0 +1,11 @@
+# Ignore dynamic state files
+node_registry.json
+
+# Ignore secret keys and environment variables
+.env
+.env.local
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+env/
